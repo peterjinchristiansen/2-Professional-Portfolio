@@ -25,7 +25,7 @@
 
 ## Usage
     
-Link to deployed application: insertlinkhere
+Link to deployed application: https://peterjinchristiansen.github.io/2-Professional-Portfolio/
 
 
 
@@ -47,7 +47,8 @@ If you have any questions, you can email me at peterjinchristiansen@gmail.com. Y
 
 ## Screenshot
 
-insert screenshot here
+![image](https://user-images.githubusercontent.com/82626937/137044459-0337b4bb-de57-4c16-a95b-e680fdcc0d1c.png)
+
 
 ---
         
