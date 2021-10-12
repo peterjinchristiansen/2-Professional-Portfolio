@@ -1,0 +1,185 @@
+* {
+    font-family: Oswald;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    display: flex;
+    padding: 10px;
+    background-color: black;
+}
+
+#navbarLogo {
+    font-family: Akronim;
+    text-decoration: none;
+    font-size: 48px;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#navbarList {
+    display: flex;
+    margin-inline-start: auto;
+}
+
+.navbarLink {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.icon {
+    font-size: 200px;
+}
+
+#header {
+    margin: 0;
+    background: radial-gradient(circle, rgba(251,63,213,1) 0%, rgba(70,252,105,1) 100%);
+    display: flex;
+    padding: 20px;
+}
+
+.headerDiv {
+    width: 50%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#weatherImage #quizImage {
+    cursor: pointer;
+}
+
+.workDiv {
+    display: flex;
+    padding: 20px;
+    background-color: cyan;
+}
+
+.workDiv2 {
+    display: flex;
+    padding: 20px;
+    background-color: purple;
+}
+
+.titleHeading {
+    margin-top: 20px;
+    text-align: center; 
+}
+
+.workContent {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+.workContent2 {
+    text-align: center;
+    margin: auto;
+    width: 40%;
+}
+
+@media screen and (max-width: 10000px) {
+    #navbarLogo {
+        font-size: 48px;
+    }
+    .navbarLink {
+        font-size: 18px;
+        margin: 20px;
+    }
+
+    #navbar {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 503px) {
+    .navbarLink {
+        margin: 14px;
+    }
+
+    .icon {
+        font-size: 150px;
+    }
+}
+
+@media screen and (max-width: 466px) {
+    #navbarLogo {
+        font-size: 44px;
+    }
+    .navbarLink {
+        margin: 10px;
+    }
+
+    #headerh1 {
+        font-size: 20px;
+    }
+
+    #headerp {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 432px) {
+    #navbarLogo {
+        font-size: 40px;
+    }
+    .navbarLink {
+        font-size: 16px;
+        margin: 6px;
+    }
+
+    #navbar {
+        padding: 8px;
+    }
+
+    .icon {
+        font-size: 100px;
+    }
+}
+
+@media screen and (max-width: 371px) {
+    #navbarLogo {
+        font-size: 32px;
+    }
+    .navbarLink {
+        font-size: 14px;
+    }
+
+    #navbar {
+        padding: 6px;
+    }
+}
+
+@media screen and (max-width: 323px) {
+    #navbarLogo {
+        font-size: 28px;
+    }
+    .navbarLink {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 291px) {
+    #navbarLogo {
+        font-size: 24px;
+    }
+    .navbarLink {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 259px) {
+    #navbarLogo {
+        font-size: 20px;
+    }
+
+    .navbarLink {
+        font-size: 8px;
+    }
+}
