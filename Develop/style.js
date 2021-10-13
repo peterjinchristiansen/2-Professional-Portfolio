@@ -9,3 +9,8 @@ $('#quizImage').click(() => {
 $('#quixoticImage').click(() => {
     window.location = ('https://secure-oasis-07613.herokuapp.com/');
 })
+
+$('#concertImage').click(() => {
+    window.location = ('https://peterjinchristiansen.github.io/Concert-Finder/');
+})
+
